@@ -1,34 +1,50 @@
 {
   "project_info": {
-    "project_number": "784605237742",
-    "firebase_url": "https://math-89e68.firebaseio.com",
-    "project_id": "math-89e68",
-    "storage_bucket": "math-89e68.appspot.com"
+    "project_number": "59535721504",
+    "firebase_url": "https://mquestfirebaseproject.firebaseio.com",
+    "project_id": "mquestfirebaseproject",
+    "storage_bucket": "mquestfirebaseproject.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:784605237742:android:97e085e5b965c29142beff",
+        "mobilesdk_app_id": "1:59535721504:android:7a6b1032dc4ef77cada845",
         "android_client_info": {
           "package_name": "com.indra.mq"
         }
       },
       "oauth_client": [
         {
-          "client_id": "784605237742-5nbg8ntg2q0r3o0k2fh4f0er6ljkpve6.apps.googleusercontent.com",
+          "client_id": "59535721504-k1vgasffbtvs4inql09ga14k5duf3830.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indra.mq",
+            "certificate_hash": "d394e5ab38ae19b418705d71090d07834f25aa7e"
+          }
+        },
+        {
+          "client_id": "59535721504-7oteniolt1kc1netvhrrsvi5r2t055pf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indra.mq",
+            "certificate_hash": "032b52bc1af35b5e4951cc7223c07c6bbd55cfbc"
+          }
+        },
+        {
+          "client_id": "59535721504-075jpcsa248osb9fp09oqb1j30pm9oop.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDesVOwFvsxhmrS_QfBw2VLVC3LEVQWono"
+          "current_key": "AIzaSyA2LzIBxy7AvGXG7KJWnH1MDdVx06hk6-Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "784605237742-5nbg8ntg2q0r3o0k2fh4f0er6ljkpve6.apps.googleusercontent.com",
+              "client_id": "59535721504-075jpcsa248osb9fp09oqb1j30pm9oop.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
