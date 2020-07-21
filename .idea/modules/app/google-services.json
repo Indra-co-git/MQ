@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "59535721504-k1vgasffbtvs4inql09ga14k5duf3830.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.indra.mq",
-            "certificate_hash": "d394e5ab38ae19b418705d71090d07834f25aa7e"
-          }
-        },
-        {
           "client_id": "59535721504-7oteniolt1kc1netvhrrsvi5r2t055pf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

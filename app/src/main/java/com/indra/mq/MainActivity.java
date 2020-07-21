@@ -13,14 +13,22 @@ import android.widget.Chronometer;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
     Chronometer chronometer;
-    Button b1,b2,b3,sub;
+    Button b1,b2,b3,sub,sign_out;
     private boolean running;
     private long offset;
+
+    FirebaseAuth mauth;
+    private FirebaseDatabase firebaseDatabase;
+    private DatabaseReference databaseReference;
 
     TextView ta,tb,ts,fs;
     int a,b,c,s;
@@ -47,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
         tb = findViewById(R.id.b);
         ts = findViewById(R.id.score);
         fs = findViewById(R.id.finalscore);
+
+        sign_out=findViewById(R.id.sign_out);
 
         sub = findViewById(R.id.submit);
         ed = findViewById(R.id.res);
@@ -149,6 +159,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        sign_out.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mauth.signOut();
+                Intent intent=new Intent(MainActivity.this,SignIn.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
     }
 }

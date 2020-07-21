@@ -115,5 +115,11 @@
         android:layout_gravity="center"
         android:id="@+id/finalscore"/>
 
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out" />
+
 </LinearLayout>
 </ScrollView>
