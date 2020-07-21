@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "784605237742",
+    "firebase_url": "https://math-89e68.firebaseio.com",
+    "project_id": "math-89e68",
+    "storage_bucket": "math-89e68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784605237742:android:97e085e5b965c29142beff",
+        "android_client_info": {
+          "package_name": "com.indra.mq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784605237742-5nbg8ntg2q0r3o0k2fh4f0er6ljkpve6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDesVOwFvsxhmrS_QfBw2VLVC3LEVQWono"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784605237742-5nbg8ntg2q0r3o0k2fh4f0er6ljkpve6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+
     tools:context=".MainActivity">
 
     <Chronometer
@@ -13,26 +17,103 @@
         android:layout_height="wrap_content"
         android:id="@+id/c1"
         android:layout_gravity="center"
+
         android:textSize="30sp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="start"
+        android:layout_gravity="center"
         android:id="@+id/start"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="pause"
+        android:layout_gravity="center"
         android:id="@+id/pause"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="reset"
+        android:layout_gravity="center"
         android:id="@+id/reset"
         />
 
+    <TextView
 
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="00"
+        android:layout_gravity="center"
+        android:id="@+id/score"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="00"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:id="@+id/a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="+"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/o"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="00"
+            android:layout_gravity="center"
+            android:id="@+id/b"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:ems="5"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:id="@+id/res"
+        android:inputType="number"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:id="@+id/submit"
+        />
+
+    <TextView
+
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="90sp"
+        android:text=""
+        android:layout_gravity="center"
+        android:id="@+id/finalscore"/>
 
 </LinearLayout>
+</ScrollView>
