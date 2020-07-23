@@ -105,8 +105,13 @@ public class MainActivity extends AppCompatActivity {
                     offset=0;
                     chronometer.stop();
                 }
+
+                Intent intent = new Intent(MainActivity.this, play.class);
+                startActivity(intent);
             }
         });
+
+
 
         chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override

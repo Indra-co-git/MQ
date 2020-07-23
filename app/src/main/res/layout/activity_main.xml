@@ -33,13 +33,13 @@
         android:layout_gravity="center"
         android:id="@+id/pause"
         />
+
     <Button
+        android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="reset"
         android:layout_gravity="center"
-        android:id="@+id/reset"
-        />
+        android:text="Play" />
 
     <TextView
 
@@ -75,14 +75,15 @@
             android:layout_gravity="center"
             android:textAlignment="center"
             android:id="@+id/o"/>
+
         <TextView
+            android:id="@+id/b"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textSize="50sp"
-            android:text="00"
             android:layout_gravity="center"
-            android:id="@+id/b"/>
+            android:layout_weight="1"
+            android:text="00"
+            android:textSize="50sp" />
     </LinearLayout>
 
     <EditText
